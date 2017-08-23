@@ -9,6 +9,7 @@ public class NextSort {
 		            for (int i = 0; i < n - 1; i++) {
 		                k = i + 1;
 		                if (array[i] > array[k]) {
+		                	
 		                    swapNumbers1(i, k, array);
 		                }
 		            }
